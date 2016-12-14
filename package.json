@@ -1,0 +1,32 @@
+{
+  "name": "tiled",
+  "version": "0.1.0",
+  "description": "tiling component for react",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel --out-file build/index.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulpino/tiled.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "vulpino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vulpino/tiled/issues"
+  },
+  "homepage": "https://github.com/vulpino/tiled#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0"
+  },
+  "peerDependencies": {
+    "react": "^15.4.1"
+  }
+}
